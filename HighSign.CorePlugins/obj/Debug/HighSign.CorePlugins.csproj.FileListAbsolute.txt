@@ -1,0 +1,13 @@
+C:\Users\sarun_000\Downloads\highsign-76924\HighSign\HighSign\bin\Debug\Plugins\ManagedWinapiNativeHelper.dll
+C:\Users\sarun_000\Downloads\highsign-76924\HighSign\HighSign\bin\Debug\Plugins\HighSign.CorePlugins.dll
+C:\Users\sarun_000\Downloads\highsign-76924\HighSign\HighSign\bin\Debug\Plugins\HighSign.CorePlugins.pdb
+C:\Users\sarun_000\Downloads\highsign-76924\HighSign\HighSign.CorePlugins\obj\Debug\HighSign.CorePlugins.csprojResolveAssemblyReference.cache
+C:\Users\sarun_000\Downloads\highsign-76924\HighSign\HighSign.CorePlugins\obj\Debug\HighSign.CorePlugins.HotKey.HotKeyUI.resources
+C:\Users\sarun_000\Downloads\highsign-76924\HighSign\HighSign.CorePlugins\obj\Debug\HighSign.CorePlugins.MultiMonitor.MultiMonitorUI.resources
+C:\Users\sarun_000\Downloads\highsign-76924\HighSign\HighSign.CorePlugins\obj\Debug\HighSign.CorePlugins.Properties.Resources.resources
+C:\Users\sarun_000\Downloads\highsign-76924\HighSign\HighSign.CorePlugins\obj\Debug\HighSign.CorePlugins.RunCommand.RunCommandUI.resources
+C:\Users\sarun_000\Downloads\highsign-76924\HighSign\HighSign.CorePlugins\obj\Debug\HighSign.CorePlugins.SendKeystrokes.SendKeystrokesUI.resources
+C:\Users\sarun_000\Downloads\highsign-76924\HighSign\HighSign.CorePlugins\obj\Debug\HighSign.CorePlugins.Volume.VolumeUI.resources
+C:\Users\sarun_000\Downloads\highsign-76924\HighSign\HighSign.CorePlugins\obj\Debug\HighSign.CorePlugins.csproj.GenerateResource.Cache
+C:\Users\sarun_000\Downloads\highsign-76924\HighSign\HighSign.CorePlugins\obj\Debug\HighSign.CorePlugins.dll
+C:\Users\sarun_000\Downloads\highsign-76924\HighSign\HighSign.CorePlugins\obj\Debug\HighSign.CorePlugins.pdb

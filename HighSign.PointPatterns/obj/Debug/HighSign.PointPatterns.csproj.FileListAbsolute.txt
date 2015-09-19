@@ -1,0 +1,5 @@
+C:\Users\sarun_000\Downloads\highsign-76924\HighSign\HighSign.PointPatterns\bin\Debug\HighSign.PointPatterns.dll
+C:\Users\sarun_000\Downloads\highsign-76924\HighSign\HighSign.PointPatterns\bin\Debug\HighSign.PointPatterns.pdb
+C:\Users\sarun_000\Downloads\highsign-76924\HighSign\HighSign.PointPatterns\obj\Debug\HighSign.PointPatterns.csprojResolveAssemblyReference.cache
+C:\Users\sarun_000\Downloads\highsign-76924\HighSign\HighSign.PointPatterns\obj\Debug\HighSign.PointPatterns.dll
+C:\Users\sarun_000\Downloads\highsign-76924\HighSign\HighSign.PointPatterns\obj\Debug\HighSign.PointPatterns.pdb

@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="HighSign.Applications.Action" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAIAAAAAAQAEAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Applications\Action.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HighSign.Applications.ApplicationManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgBikQBCgAAQAAAEEIQBICAAAgAACQIgAAQEBAAg=</HashCode>
+      <FileName>Applications\ApplicationManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HighSign.Applications.GlobalApplication" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAIAAAQQAAAAABAARAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Applications\GlobalApplication.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HighSign.Applications.UserApplication" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAIAAAQQAAAAABAARAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Applications\UserApplication.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HighSign.Applications.UI.ApplicationListViewItem" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAEQAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Applications\UI\ApplicationListViewItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HighSign.Configuration.IO.FileManager" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Configuration\IO\FileManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HighSign.Drawing.GestureThumbnail" Collapsed="true">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAgAAAAAAiAAABAAAgAIAAAAAAFQAgBABAAAAAAA=</HashCode>
+      <FileName>Drawing\GestureThumbnail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HighSign.Drawing.ImageHelper" Collapsed="true">
+    <Position X="11.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Drawing\ImageHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HighSign.Gestures.Gesture" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Gestures\Gesture.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HighSign.Gestures.GestureManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAgAAQAQWQAAAAQA0GBAAAFACAAAACQBABAAABAAA=</HashCode>
+      <FileName>Gestures\GestureManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HighSign.Input.MouseCapture" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAgGAAAQAEAAgACMCAEggAAFBgChYJAAAEAgAAg=</HashCode>
+      <FileName>Input\MouseCapture.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HighSign.Input.MouseEventTranslator" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAEAAAAAAAAAAAAAAEAAACAAAAACAAIA=</HashCode>
+      <FileName>Input\MouseEventTranslator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HighSign.Plugins.HostControl" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIARAQAAAEAAAAAAIAAAAAACgAAAAAAAASAAAE=</HashCode>
+      <FileName>Plugins\HostControl.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HighSign.Plugins.PluginManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAhAAAQAAAAAAAAAAkAAAAAAABAAAAQgAAAAAAAQA=</HashCode>
+      <FileName>Plugins\PluginManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HighSign.Plugins.UI.PluginComboBoxItem" Collapsed="true">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAABAAAAAAAAAAAAAAAEAAAAACABAAAgAAAA=</HashCode>
+      <FileName>Plugins\UI\PluginComboBoxItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HighSign.Program" Collapsed="true">
+    <Position X="11.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAgAAEAIAAAAAIAAAgQABBAAAIAABAACAAg=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HighSign.Properties.Resources" Collapsed="true">
+    <Position X="4.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAABAAAAAQAABEAAEAQAAAAACAAEAAAAEBIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HighSign.Properties.Settings" Collapsed="true">
+    <Position X="6.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAQAAAAIgAAYIAACAABAAACAAIAAAAAAiA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HighSign.UI.FormManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgECAAAAAABIgAAAOAAAEpAACAAAQQAABAARABAA=</HashCode>
+      <FileName>UI\FormManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HighSign.UI.Utility" Collapsed="true">
+    <Position X="11.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>UI\Utility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HighSign.UI.Forms.ActionDefinition" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQJQgEQJCghDBAABICAAAgCABAAQAhAwAAAAQAAAAA=</HashCode>
+      <FileName>UI\Forms\ActionDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HighSign.UI.Forms.ApplicationDefinition" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KEABQUgQYCAAIUCwASCAgIUCAAEAAQAgADBAAAABAIA=</HashCode>
+      <FileName>UI\Forms\ApplicationDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HighSign.UI.Forms.AvailableActions" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAUAAAACCABASAAAACEAAASAAAAEAAiAEAAABIQEAA=</HashCode>
+      <FileName>UI\Forms\AvailableActions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HighSign.UI.Forms.AvailableGestures" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAjAAAAAAAAGQEAACAAAAAAABAAAAABAAAAA=</HashCode>
+      <FileName>UI\Forms\AvailableGestures.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HighSign.UI.Forms.GestureDefinition" Collapsed="true">
+    <Position X="11.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAIJQAAQAnAADAAAIADBAgQCAAQAgAgKEDAAQAAACAE=</HashCode>
+      <FileName>UI\Forms\GestureDefinition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HighSign.UI.Forms.Options" Collapsed="true">
+    <Position X="8.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>sBiEQAoRUGAEAoAhSgCEAAACBICEFOAgIrAIAADgAYA=</HashCode>
+      <FileName>UI\Forms\Options.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HighSign.UI.Forms.Surface" Collapsed="true">
+    <Position X="8.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BoAAAAQEACAAAAAAAAKBAEgSAAgABAAAAAAAIAAAEAA=</HashCode>
+      <FileName>UI\Forms\Surface.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HighSign.Common.Applications.ApplicationChangedEventArgs" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="HighSign.Common.Gestures.GestureEventArgs" Collapsed="true">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="HighSign.Common.Gestures.RecognitionEventArgs" Collapsed="true">
+    <Position X="3" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="HighSign.Common.Input.PointsCapturedEventArgs" Collapsed="true">
+    <Position X="10" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="HighSign.Common.InterchangeObjects.PointInfo" Collapsed="true">
+    <Position X="3" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="HighSign.Common.UI.InstanceEventArgs" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="HighSign.PointPatterns.PointPatternAnalyzer" Collapsed="true">
+    <Position X="4.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="HighSign.PointPatterns.PointPatternMatchResult" Collapsed="true">
+    <Position X="6.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="HighSign.PointPatterns.PointPatternMath" Collapsed="true">
+    <Position X="8.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="HighSign.Common.Applications.IAction" Collapsed="true">
+    <Position X="3" Y="6.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="HighSign.Common.Applications.IApplication" Collapsed="true">
+    <Position X="4.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="HighSign.Common.Applications.IApplicationManager" Collapsed="true">
+    <Position X="6.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="HighSign.Common.Gestures.IGesture" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="HighSign.Common.Gestures.IGestureManager" Collapsed="true">
+    <Position X="10" Y="6.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="HighSign.Common.ILoadable" Collapsed="true">
+    <Position X="3" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="HighSign.Common.Input.IMouseCapture" Collapsed="true">
+    <Position X="4.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="HighSign.Common.Plugins.IHostControl" Collapsed="true">
+    <Position X="11.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="HighSign.Common.Plugins.IPlugin" Collapsed="true">
+    <Position X="6.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="HighSign.Common.Plugins.IPluginManager" Collapsed="true">
+    <Position X="8.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="HighSign.Common.UI.IFormManager" Collapsed="true">
+    <Position X="8.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="HighSign.PointPatterns.IPointPattern" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Enum Name="HighSign.Configuration.CaptureButton" Collapsed="true">
+    <Position X="3" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAABAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configuration\CaptureButton.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HighSign.Configuration.IgnoreButton" Collapsed="true">
+    <Position X="6.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAIAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configuration\IgnoreButton.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HighSign.Configuration.StartupMode" Collapsed="true">
+    <Position X="10" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Configuration\StartupMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HighSign.Common.Applications.MatchUsing" Collapsed="true">
+    <Position X="8.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="HighSign.Common.Enumerations.Category" Collapsed="true">
+    <Position X="4.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Delegate Name="HighSign.Common.Applications.ApplicationChangedEventHandler" Collapsed="true">
+    <Position X="3" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Delegate Name="HighSign.Common.Gestures.GestureEventHandler" Collapsed="true">
+    <Position X="4.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Delegate Name="HighSign.Common.Gestures.RecognitionEventHandler" Collapsed="true">
+    <Position X="11.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Delegate Name="HighSign.Common.Input.PointsCapturedEventHandler" Collapsed="true">
+    <Position X="10" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Delegate Name="HighSign.Common.UI.InstanceEventHandler" Collapsed="true">
+    <Position X="6.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Delegate Name="HighSign.Common.UI.OptionsSavedEventHandler" Collapsed="true">
+    <Position X="8.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

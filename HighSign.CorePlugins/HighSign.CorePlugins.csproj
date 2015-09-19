@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{60070AF1-C987-4C5B-AFD1-B9DFAF47E35C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HighSign.CorePlugins</RootNamespace>
+    <AssemblyName>HighSign.CorePlugins</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\HighSign\bin\Debug\Plugins\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\HighSign\bin\Release\Plugins\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\HighSign\bin\x86\Debug\Plugins\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DisableGestures.cs" />
+    <Compile Include="MultiMonitor\MultiMonitorPlugin.cs" />
+    <Compile Include="MultiMonitor\MultiMonitorSettings.cs" />
+    <Compile Include="MultiMonitor\MultiMonitorUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MultiMonitor\MultiMonitorUI.Designer.cs">
+      <DependentUpon>MultiMonitorUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RunCommand\RunCommandSettings.cs" />
+    <Compile Include="Notifier.cs" />
+    <Compile Include="RunCommand\RunCommandPlugin.cs" />
+    <Compile Include="PreviousApplication.cs" />
+    <Compile Include="NextApplication.cs" />
+    <Compile Include="DefaultBrowser.cs" />
+    <Compile Include="Minimize.cs" />
+    <Compile Include="HotKey\HotKeyPlugin.cs" />
+    <Compile Include="HotKey\HotKeySettings.cs" />
+    <Compile Include="MaximizeRestore.cs" />
+    <Compile Include="HotKey\HotKeyUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HotKey\HotKeyUI.Designer.cs">
+      <DependentUpon>HotKeyUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RunCommand\RunCommandUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RunCommand\RunCommandUI.Designer.cs">
+      <DependentUpon>RunCommandUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SendKeystrokes\SendKeystrokes.cs" />
+    <Compile Include="SendKeystrokes\SendKeystrokesUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SendKeystrokes\SendKeystrokesUI.Designer.cs">
+      <DependentUpon>SendKeystrokesUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Volume\AudioEndpointVolume.cs" />
+    <Compile Include="Volume\AudioEndpointVolumeCallback.cs" />
+    <Compile Include="Volume\AudioEndpointVolumeNotificationDelegate.cs" />
+    <Compile Include="Volume\AudioVolumeNotificationData.cs" />
+    <Compile Include="Volume\EDataFlow.cs" />
+    <Compile Include="Volume\EDeviceState.cs" />
+    <Compile Include="Volume\EEndpointHardwareSupport.cs" />
+    <Compile Include="Volume\ERole.cs" />
+    <Compile Include="Volume\Interfaces\AUDIO_VOLUME_NOTIFICATION_DATA.cs" />
+    <Compile Include="Volume\Interfaces\Blob.cs" />
+    <Compile Include="Volume\Interfaces\CLSCTX.cs" />
+    <Compile Include="Volume\Interfaces\eStgmAccess.cs" />
+    <Compile Include="Volume\Interfaces\IAudioEndpointVolume.cs" />
+    <Compile Include="Volume\Interfaces\IAudioEndpointVolumeCallback.cs" />
+    <Compile Include="Volume\Interfaces\IMMDevice.cs" />
+    <Compile Include="Volume\Interfaces\IMMDeviceCollection.cs" />
+    <Compile Include="Volume\Interfaces\IMMDeviceEnumerator.cs" />
+    <Compile Include="Volume\MMDevice.cs" />
+    <Compile Include="Volume\MMDeviceCollection.cs" />
+    <Compile Include="Volume\MMDeviceEnumerator.cs" />
+    <Compile Include="Volume\VolumePlugin.cs" />
+    <Compile Include="Volume\VolumeSettings.cs" />
+    <Compile Include="Volume\VolumeUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Volume\VolumeUI.designer.cs">
+      <DependentUpon>VolumeUI.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HighSign.Common\HighSign.Common.csproj">
+      <Project>{038047A4-E3F8-4B49-9762-7F63971B8319}</Project>
+      <Name>HighSign.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ManagedWinapi\ManagedWinapi.csproj">
+      <Project>{FBD3EC1E-47E2-4D2D-81C9-D6506125A09A}</Project>
+      <Name>ManagedWinapi</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="HotKey\HotKeyUI.resx">
+      <DependentUpon>HotKeyUI.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MultiMonitor\MultiMonitorUI.resx">
+      <DependentUpon>MultiMonitorUI.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RunCommand\RunCommandUI.resx">
+      <DependentUpon>RunCommandUI.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SendKeystrokes\SendKeystrokesUI.resx">
+      <DependentUpon>SendKeystrokesUI.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Volume\VolumeUI.resx">
+      <DependentUpon>VolumeUI.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
